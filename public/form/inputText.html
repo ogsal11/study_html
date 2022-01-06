@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>김도현1</title>
+</head>
+
+<body>
+	 
+	<form action="" method="post" id="form" name="" enctype="multipart/form-data">
+		아이디 : <input type="text" id="id1" name="id1">
+		<br>아이디 : <input type="text" id="id2" name="id2" size="50">
+		<br>아이디 : <input type="text" id="id3" name="id3" maxlength="20">
+		<br>아이디 : <input type="text" id="id4" name="id4" placeholder="아이디">
+		<br>아이디 : <input type="text" id="id5" name="id5" value="maxkguy">
+		<br>아이디 : <input type="text" id="id5" name="id5" size="50" placeholder="" value="maxkguy">
+		<br>아이디(autofocus) : <input type="text" id="id5" name="id5" autofocus="autofocus">
+	
+	<br><input type="button" id="button" name="button" value="제출" onclick="here();">
+	</form>
+	
+	<script type="text/javascript">
+		function here() {
+			alert("id1: " +document.getElementById("id1").value);
+			document.getElementById("form").submit();
+}
+</script>
+</body>
+</html>
