@@ -8,7 +8,7 @@
 
 <body>
 	 
-	<form action="" method="post" id="form" name="" enctype="multipart/form-data">
+	<form action="" method="get" id="form" name="" enctype="multipart/form-data">
 		아이디 : <input type="text" id="id1" name="id1">
 		<br>아이디 : <input type="text" id="id2" name="id2" size="50">
 		<br>아이디 : <input type="text" id="id3" name="id3" maxlength="20">
@@ -16,8 +16,28 @@
 		<br>아이디 : <input type="text" id="id5" name="id5" value="maxkguy">
 		<br>아이디 : <input type="text" id="id5" name="id5" size="50" placeholder="" value="maxkguy">
 		<br>아이디(autofocus) : <input type="text" id="id5" name="id5" autofocus="autofocus">
+		
+		<br>아이디(autofocus) : <input type="text" id="id5" name="id5" autofocus="autofocus" readonly>
+		<br>아이디(autofocus) : <input type="text" id="id5" name="id5" autofocus="autofocus" disabled>
 	
 	<br><input type="button" id="button" name="button" value="제출" onclick="here();">
+	
+	<br>
+	<select disabled>
+		<option>1
+		<option>2
+		<option selected>3
+	</select>
+	
+	<hr>
+	
+	<p>여기까지</p>
+	<input type="hidden" id="" name="" value="yes">
+	<p>여기까지</p>
+	
+	<br><input type="submit" name="submit">
+	
+	<input type="hidden" id="" name="" value="">
 	</form>
 	
 	<script type="text/javascript">
